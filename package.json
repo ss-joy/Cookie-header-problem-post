@@ -1,0 +1,25 @@
+{
+  "name": "cookie-header-problem-post",
+  "version": "1.0.0",
+  "description": "a short demo setup for showing Cookie header issue in postman and thunder client extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss-joy/Cookie-header-problem-post.git"
+  },
+  "author": "sakil sazzad joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss-joy/Cookie-header-problem-post/issues"
+  },
+  "homepage": "https://github.com/ss-joy/Cookie-header-problem-post#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
